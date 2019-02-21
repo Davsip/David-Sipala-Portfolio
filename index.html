@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
 
     <link rel="stylesheet" type="text/css" href="css/superslides.css" />
     <link
@@ -10,17 +11,32 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1>my Portfolio</h1>
+    <!-- <h1>my Portfolio</h1> -->
     <div id="slides">
+      <div class="overlay"></div>
+
       <div class="slides-container">
         <img src="./img/pexels-photo-196645.jpeg" alt="" />
         <img src="./img/pexels-photo-273230.jpeg" alt="" />
+        <img src="./img/pexels-photo-1157859.jpeg" alt="" />
         <img src="./img/pexels-photo-316465.jpeg" alt="" />
       </div>
+      <div class="title-message">
+        <div class="heading">
+          <p class="main-title">David Sipala</p>
+
+          <p class="sub">UX Designer</p>
+        </div>
+      </div>
+
+      <!-- next - prev arrow  -->
+      <!-- <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav> -->
     </div>
 
     <script src="./js/jquery.superslides.min.js"></script>
