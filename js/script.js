@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   var typed = new Typed(".typed", {
     strings: [
-      "UX Designer.",
+      "Certified UX Designer.",
       "User Research.",
       "Product Designer",
       "Web Developer."
