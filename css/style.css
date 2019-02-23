@@ -1,9 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:#FFFFE0;
+  
+
+}
+
+
 .overlay {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.slides-container img {
+  width: 50%;
+
+  vertical-align: top;
 }
 
 /* .slides-navigation .prev,
@@ -46,4 +64,17 @@
 
 .title-message .heading .sub {
   font-size: 30px;
+}
+
+.section-bio{
+  padding-top: 80px;
+}
+
+.bio-text{
+  text-align: left;
+
+}
+
+.my-image {
+
 }
