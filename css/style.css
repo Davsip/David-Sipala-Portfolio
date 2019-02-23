@@ -3,7 +3,9 @@
 }
 
 body {
-  background:#FFFFE0;
+  background:#D3D3D3
+
+;
   
 
 }
@@ -70,13 +72,42 @@ body {
   padding-top: 80px;
 }
 
-.bio-text{
+/* .bio-text{
   text-align: left;
 
+} */
+
+.bio-info{
+  text-align: right;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+
+}
+.testimonial__image-container {
+  width: 50%;
+  max-width: 580px;
+  display: inline-block;
+  vertical-align: middle;
+  /* box-shadow:  3px 3px 5px 3px rgba(0, 0, 0, 0.3); */
+ 
 }
 
-.my-image {
-  padding-left:80px;
-  width: 40%;
-/* align-content: center; */
-}
+.testimonial__image {
+  width: 100%;
+  vertical-align: top;
+  padding-left: 90px;
+    }
+
+  
+    .header {
+      margin: 3px;
+    color: #ff5454;
+    text-align: center;
+    }
+
+   .bio-text {
+     margin: 3px;
+     font-size: 20px;
+   }
