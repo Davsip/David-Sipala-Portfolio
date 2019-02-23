@@ -76,5 +76,7 @@ body {
 }
 
 .my-image {
-
+  padding-left:80px;
+  width: 40%;
+/* align-content: center; */
 }
