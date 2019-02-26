@@ -10,7 +10,7 @@ $(document).ready(function() {
       "Certified UX Designer.",
       "User Research.",
       "Product Designer",
-      "Web Developer."
+      "and Web Developer."
     ],
     typeSpeed: 70,
     loop: true,
@@ -18,3 +18,9 @@ $(document).ready(function() {
     showCursor: false
   });
 });
+
+
+
+
+
+
