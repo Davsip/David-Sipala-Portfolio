@@ -4,6 +4,7 @@
 
 body {
   background:rgb(237, 231, 231);
+
 }
 
 
@@ -65,7 +66,7 @@ body {
 }
 
 .section-bio{
- padding: 6rem 0;
+ padding: 11rem 0;
   margin: 0 6rem;
 }
 
@@ -95,7 +96,7 @@ body {
   
     .header {
       margin: 3px;
-    color: #ff5454;
+    color:#e74c3c;
     text-align: center;
     font-size: 2rem;
     }
@@ -110,8 +111,8 @@ body {
 
 
 
-   .section-skills {
-padding: 0 6rem;
+   .skills-section {
+padding: 0 8rem;
 background: #ecf0f1;
    }
 
@@ -119,5 +120,48 @@ background: #ecf0f1;
       text-align: center;
       color: #ff5454;
       font-size: 2rem;
-      padding: 2rem 0;
+      padding: 1.5rem 0;
    }
+
+
+
+   .carousel-container{
+    padding: 1.5rem 0;
+   }
+
+   .skill {
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .chart {
+    position: relative;
+      width: 152px;
+      height: 152px;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  .chart canvas {
+    position: absolute;
+      left: 0;
+      top: 0;
+  }
+  
+  .chart .percent {
+    color: #000;
+      line-height: 152px;
+      display: inline-block;
+      font-size: 20px;
+  }
+  
+  .chart .percent:after {
+    content: '%';
+  }
+
+
+
+
+
+
+  
