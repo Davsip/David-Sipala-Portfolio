@@ -131,9 +131,15 @@ background: #ecf0f1;
 
    .skill {
     text-align: center;
-    margin-left: 10px;
+    margin-left: 0.8rem;
   }
   
+
+.skill h4 {
+  padding:  1.3rem 0;
+}
+
+
   .chart {
     position: relative;
       width: 152px;
@@ -162,6 +168,11 @@ background: #ecf0f1;
 
 
 
+.contactSection{
+   padding:  8rem;
+   text-align: center;
+  background:  #fff;
 
+}
 
-  
+ 
