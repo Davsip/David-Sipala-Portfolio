@@ -1,3 +1,12 @@
+$(window).on("load", function() {
+
+	$(".loader .inner").fadeOut(500, function() {
+		$(".loader").fadeOut(750);
+	});
+
+})
+
+
 $(document).ready(function() {
   $("#slides").superslides({
     animation: "fade",
@@ -71,21 +80,12 @@ $(document).ready(function() {
     }
   });
 
- 
-
-
-	$("#navigation li a").click(function(e) {
-		e.preventDefault();
-
-		var targetElement = $(this).attr("href");
-		var targetPosition = $(targetElement).offset().top;
-		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
-
-	});
 
 
 
 
+
+  
 //  function to stick the navigation when scroling down 
   const nav = $("#navigation");
 	const navTop = nav.offset().top;
