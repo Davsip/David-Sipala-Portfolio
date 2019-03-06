@@ -225,6 +225,15 @@ body {
   height: 5rem;
 }
 
+.prototype-link {
+  text-align: center;
+  color: #535c68;
+  display: block;
+  margin-left: 0rem;
+  padding: 4rem 0;
+  font-size: 2rem;
+}
+
 .first-app {
   box-shadow: 3px 3px 5px 8px rgba(0, 0, 0, 0.2);
 }
