@@ -37,6 +37,25 @@ body {
   vertical-align: top;
 }
 
+.main-1 {
+  width: 100vh;
+  height: 33vh;
+}
+
+.main-2 {
+  width: 100vh;
+  height: 33vh;
+}
+
+.main-3 {
+  width: 100vh;
+  height: 33vh;
+}
+.main-4 {
+  width: 100vh;
+  height: 33vh;
+}
+
 /* .slides-navigation .prev,
 .slides-navigation .next {
   width: 47px;
@@ -111,7 +130,11 @@ body {
   font-size: 2rem;
 }
 
-@media (min-witdth: 40rem) {
+@media (min-width: 40rem) {
+  .title-message .heading .main-title {
+    font-size: 8rem;
+  }
+
   .title-message .heading .sub {
     font-size: 4rem;
   }
