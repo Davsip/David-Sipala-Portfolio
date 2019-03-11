@@ -1,11 +1,8 @@
 $(window).on("load", function() {
-
-	$(".loader .inner").fadeOut(500, function() {
-		$(".loader").fadeOut(750);
-	});
-
-})
-
+  $(".loader .inner").fadeOut(500, function() {
+    $(".loader").fadeOut(750);
+  });
+});
 
 $(document).ready(function() {
   $("#slides").superslides({
@@ -80,35 +77,30 @@ $(document).ready(function() {
     }
   });
 
+  // function to go to different sections on the page when clicking on the menu //
 
+  $("#navigation li a").click(function(e) {
+    e.preventDefault();
 
+    var targetElement = $(this).attr("href");
+    var targetPosition = $(targetElement).offset().top;
+    $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+  });
 
-
-
-  
-//  function to stick the navigation when scroling down 
+  //  function to stick the navigation when scroling down
   const nav = $("#navigation");
-	const navTop = nav.offset().top;
+  const navTop = nav.offset().top;
 
-	$(window).on("scroll", stickyNavigation);
+  $(window).on("scroll", stickyNavigation);
 
-	function stickyNavigation() {
+  function stickyNavigation() {
+    var body = $("body");
 
-		var body = $("body");
-
-		if($(window).scrollTop() >= navTop) {
+    if ($(window).scrollTop() >= navTop) {
       body.css("padding-top", nav.outerHeight() + "px");
-			body.addClass("fixedNav");
-		}
-		else {
-			body.removeClass("fixedNav");
-		}
-
-
-
-
-	}
-
-
-
+      body.addClass("fixedNav");
+    } else {
+      body.removeClass("fixedNav");
+    }
+  }
 });

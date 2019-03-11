@@ -38,8 +38,7 @@ body {
 }
 
 .main-1 {
-  width: 100vh;
-  height: 33vh;
+  background-position: center;
 }
 
 .main-2 {
@@ -54,6 +53,7 @@ body {
 .main-4 {
   width: 100vh;
   height: 33vh;
+  background-position: center;
 }
 
 /* .slides-navigation .prev,
@@ -132,11 +132,10 @@ body {
 
 @media (min-width: 40rem) {
   .title-message .heading .main-title {
-    font-size: 8rem;
-  }
-
-  .title-message .heading .sub {
     font-size: 4rem;
+  }
+  .title-message .heading .sub {
+    font-size: 2rem;
   }
 }
 
@@ -145,19 +144,26 @@ body {
   margin: 0 6rem;
 }
 
+/* --mobile-first set-up, "display : block" to have the items one on top of eachother
+and "width:100%" to ocupy the whole width of the screen  */
 .bio-info {
   text-align: right;
   padding: 0.8rem;
-  display: inline-block;
-  vertical-align: middle;
-  width: 45%;
-  margin: auto;
+  display: block;
+  /* vertical-align: middle; */
+  margin: 0;
+  width: 100%;
 }
+
+/* --mobile-first set-up, "display : block" to have the items one of on top of eachother */
+
 .testimonial__image-container {
   width: 50%;
   min-width: 22rem;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  /* vertical-align: middle; */
+  margin: auto;
+  padding-top: 2rem;
 }
 
 .testimonial__image {
